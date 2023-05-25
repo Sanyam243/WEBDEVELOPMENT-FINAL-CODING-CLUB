@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     #header{
+    
+   
+    position: sticky;
+    
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto 0px;
+    background-color: #656CEC;
+    display: flex;
+    height: 90px;
+    ;
+
+
+
+
+}
+#headertxt{
+    display: inline-block;
+    color: white;
+    font-size: 4em;
+    font-weight: 500;
+    margin: 5px auto 5px;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.top3{
+    position: sticky;
+    border-top: 2px solid white;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto 0px;
+    background-color: #656CEC;
+    display: flex;
+    height: 275px;
+    justify-content: center;
+}
+.box {
+    background-color: #d2d4f2;
+  width: 100%;
+  height: 55px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.box .circle {
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  margin-top: 8px;
+  margin-left: 5vw;
+  background-color: #babeff;
+}
+.box .circle:hover {
+  border: 4px solid red ;
+}
+.box:hover{
+    transform: scale(1.05); 
+}
+.box .circle img {
+  width: 40px;
+  height: 100%;
+  border-radius: 50%;
+}
+.box .points {
+  font-size: 24px;
+  line-height: 55px;
+  margin-left: 50%;
+  margin-right: 3%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box .names {
+  font-size: 24px;
+  line-height: 55px;
+  width: 20%;
+  margin-left: 3%;
+  font-family: 'Times New Roman', Times, serif;
+}
+@media (max-width: 1000px) {
+  .box {
+    height: 70px;
+  }
+  
+
+  .box .names {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .box .points {
+    font-size: 24px;
+    line-height: 55px;
+    margin-left: 40%;
+    margin-right: 3%;
+  }
+}
+.top3 .c1
+{
+
+    border-radius: 80px;
+  height: 160px;
+  width: 160px;
+  border: 2px solid white;
+  margin-top: 8px;
+  margin-left: 5vw;
+  background-color: #babeff;
+}
+.top3 .c1 img{
+    width: 160px;
+  height: 100%;
+  border-radius: 50%;
+} 
+.top3 .np1
+{
+    position: absolute;
+width: 200.29px;
+height: 30.97px;
+margin-top: 10px;
+margin-left: 50px;
+border-radius: 30px
+;
+background-color: #BABEFF;
+;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+padding-bottom: 0.5%;
+
+} 
+.top3 .np2{
+   
+    position: absolute;
+width: 180.29px;
+height: 25.97px;
+margin-top: 10px;
+margin-left: 50px;
+border-radius: 27px
+;
+background-color: #BABEFF;
+;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 40px;
+text-align:center;
+color: #FFFFFF;
+padding-bottom: 0.7%;
+   
+}
+
+.top3 .np3{
+    
+    position: absolute;
+width: 180.29px;
+height: 25.97px;
+margin-top: 10px;
+margin-left: 50px;
+border-radius: 27px
+;
+background-color: #BABEFF;
+;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 40px;
+text-align:center;
+color: #FFFFFF;
+padding-bottom: 0.7%;
+   
+}
+.top3 .c2
+{
+    position: relative;
+    border-radius: 60px;
+  height: 120px;
+  width: 120px;
+  border: 2px solid white;
+  margin-top: 50px;
+  margin-left: 5vw;
+  background-color: #babeff;
+}
+.top3 .c2 img{
+    width: 120px;
+  height: 100%;
+  border-radius: 50%;
+}
+.top3 .c3
+{position: static;
+    border-radius: 60px;
+  height: 120px;
+  width: 120px;
+  border: 2px solid white;
+  margin-top: 50px;
+  margin-left: 5vw;
+  background-color: #babeff;
+}
+.top3 .c3 img{
+    width: 120px;
+  height: 100%;
+  border-radius: 50%;
+}
+.top3 .c3 :hover{
+    transform: scale(1.15);
+    border: 2px solid white;
+}
+.top3 .c1 :hover{
+    transform: scale(1.15);
+    border: 2px solid white;
+}
+.top3 .c2 :hover{
+    transform: scale(1.15);
+    border: 2px solid white;
+}
+.number2{
+    font-size: 24px;
+  line-height: 55px;
+  margin-left: 0.50%;
+  margin-right: 3%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.circlesmall{ 
+    font-weight: 600;
+    font-size: 1.5em;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: #babeff;
+    vertical-align: 10px;
+    margin-top: 10px;
+  margin-left: 8vw;
+    border: 3.5px solid white;
+}
+.three .circlesmall{
+    margin-top: 50vw;
+  margin-left: 8vw;
+    
+}
+#lol3
+{
+    vertical-align: baseline;
+   
+    
+    margin-top: 0.5vw;
+  margin-left: 8vw;
+
+}
+
+#lol2
+{
+    
+    
+    
+    margin-top: 10vw;
+  margin-left: 8vw;
+
+}
+@media (max-width: 1000px) {
+  .box {
+    height: 70px;
+  }
+  .box .points {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .box .names {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .box .points {
+    font-size: 24px;
+    line-height: 55px;
+    margin-left: 50%;
+    margin-right: 3%;
+  }
+}
+@media (max-width: 600px) {
+  
+  .top3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 900px;
+  }
+  .top3 .first {
+    width: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 200px;
+  }
+  .top3 .second {
+    width: 24%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 200px;
+  }
+  .top3 .third {
+    width: 24%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 200px;
+  }
+  .box .points {
+    font-size: 24px;
+    line-height: 55px;
+    margin-left: 40%;
+    margin-right: 3%;
+  }
+}
+
+
+
+</style>
+<body>
+    <div id="header" ><h1 id="headertxt">Leaderboard</h1></div>
+    <div class="top3"></div>
+    <div class="boxes"></div>
+
+    </div>
+    
+</body>
+<script>
+     const myReq = new Request(
+      "https://www.coursehubiitg.in/api/codingweek/contributions"
+    );
+    let url= "https://www.coursehubiitg.in/api/codingweek/contributions";
+    let display
+    fetch(url).then((data)=>data.json()).then(
+        (jsonobj)=>{
+            
+            jsonobj=jsonobj.sort((a,b)=>{
+          if(a.points>b.points){
+            return -1;
+          }})
+           display =jsonobj}).then(() => {
+            
+        leaderboard(display);
+      });
+      function leaderboard(display)
+          {
+           
+             for(let i=4;i<=display.length;i++){
+            var division = document.createElement("div");
+            division.innerHTML=
+            '<div class="box">'+
+                '<div class="number2">'
+                +i+"."+"</div>"+
+                '<div class="circle">'
+                    +"<img src=" +
+        display[i - 1].avatar +
+        "/>" +
+                    "</div>"+ '<div class="names">'
+                        +display[i-1].name+
+                        "</div>"+
+                         '<div class="points">'
+                        +display[i-1].points+
+                        "</div>"+
+                        "</div>";
+                        let obj =document.getElementsByClassName("boxes")[0];
+                        obj.appendChild(division);
+
+
+
+                
+          }
+          let obj3 =document.getElementsByClassName("top3")[0];
+          var second1= document.createElement('div');
+          second1.className="second";
+          second1.innerHTML=
+           
+                '<div class="circlesmall id="lol2">'+
+                
+                +2+"</div>"+
+                '<div class="c2">'+
+                    "<img src=" +
+        display[1].avatar +
+        "/>" +
+                    "</div>"+ '<div class="np2">'
+                        +display[1].name+
+                        " "+
+                        +display[1].points+
+                        
+                        "</div>";
+                        
+                        obj3.appendChild(second1);
+         let obj2 =document.getElementsByClassName("top3")[0];
+          var first1= document.createElement('div');
+          first1.className="first";
+          first1.innerHTML=
+            
+                '<div class="circlesmall" id="lo11">'+
+                
+                +1+"</div>"+
+                '<div class="c1">'+
+                    "<img src=" +
+        display[0].avatar +
+        "/>" +
+                    "</div>"+ '<div class="np1">'
+                        +display[0].name+
+                        " "+
+                        +display[0].points+
+                        
+                        "</div>";
+                        
+                        obj2.appendChild(first1);
+
+        
+
+        
+
+                        let obj4 =document.getElementsByClassName("top3")[0];
+          var third1= document.createElement('div');
+          third1.className="third";
+          third1.innerHTML=
+            
+                '<div class="circlesmall" id="lol3">'+
+                
+                +3+"</div>"+
+                '<div class="c3">'+
+                    "<img src=" +
+        display[2].avatar +
+        "/>" +
+                    "</div>"+ '<div class="np3">'
+                        
+                        +display[2].name+
+                        " "+
+                        +display[2].points+
+                        
+                        "</div>";
+                        
+                        obj4.appendChild(third1);
+
+        
+
+    
+
+        }
+
+    
+         
+</script>
+</html>
